@@ -16,7 +16,7 @@ from lxml import etree
 import collections
 from telepot.loop import MessageLoop
 from telepot.namedtuple import InlineKeyboardMarkup, InlineKeyboardButton
-TOKEN="1250773791:AAErrLVj1nHKw30evXu90hokjkvYtWKKHnA"
+TOKEN="..."
 
 # Creazione albero a partire dal file xml 
 tree = ET.parse(urllib.request.urlopen('https://www.comune.palermo.it/xmls/VIS_DATASET_TURISMO03.xml'))
